@@ -1,0 +1,109 @@
+﻿body {
+    font-family: "Comic Sans MS", "Trebuchet MS";
+}
+
+
+.ReportTable {
+  margin: -3px -52px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px 5px 5px 5px;
+}
+
+    .ReportTable tr {
+        cursor: pointer;
+    }
+
+    .ReportTable tbody tr:hover {
+        background-color: lightblue;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .ReportTable td {
+        max-width: 130px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 5px;
+        border: 1px solid;
+        table-layout: fixed;
+        white-space: nowrap;
+    }
+
+#theadTable {
+    background-color: #C0C0C0;
+}
+
+
+.MainPanel {
+    margin: 25px 0px 10px 200px;
+}
+
+
+.editImage {
+    background: url(Images/edit.png);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    display: block;
+    width: 29px;
+    height: 27px;
+    text-indent: -9999px;
+}
+
+    .editImage:hover {
+        background-size: 30px;
+    }
+
+.deleteImage {
+    background: url(Images/trashcan_full.png) no-repeat top left;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    display: block;
+    width: 27px;
+    height: 28px;
+    text-indent: -9999px;
+}
+
+    .deleteImage:hover {
+        background-size: 30px;
+    }
+
+#RemoveSearch {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
+
+.InteractiveSearch {
+    display: inline-flex;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+#GlobalSearchDialog {
+    background: #424242;
+    position: absolute;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    top: 135px;
+    left: 411px;
+    display: none;
+}
+
+#CollectionColumn {
+    padding: 3px;
+    margin: 33px 0px 19px 26px;
+    width: 256px;
+}
+
+#GlobalShearchTextBox {
+    width: 65%;
+    margin: 17px 16px 0px 25px;
+    border-radius: 4px;
+}

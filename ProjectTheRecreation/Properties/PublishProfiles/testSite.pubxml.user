@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\testSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/RestDatabase.mdf">
+      <publishTime>07/30/2015 10:18:00</publishTime>
+    </File>
+    <File Include="App_Data/RestDatabase_log.ldf">
+      <publishTime>07/30/2015 10:18:00</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/17/2014 01:34:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/22/2015 19:03:58</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>07/22/2015 19:03:58</publishTime>
+    </File>
+    <File Include="bin/ProjectTheRecreation.dll">
+      <publishTime>07/30/2015 10:48:08</publishTime>
+    </File>
+    <File Include="bin/ru/EntityFramework.resources.dll">
+      <publishTime>07/22/2015 19:04:10</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Helpers.resources.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Mvc.resources.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Razor.resources.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Webpages.resources.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/22/2015 14:18:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/27/2015 23:05:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/22/2015 22:19:42</publishTime>
+    </File>
+    <File Include="Content/Images/cross_script.png">
+      <publishTime>07/25/2015 10:46:06</publishTime>
+    </File>
+    <File Include="Content/Images/edit.png">
+      <publishTime>07/26/2015 21:24:40</publishTime>
+    </File>
+    <File Include="Content/Images/trashcan_full.png">
+      <publishTime>07/26/2015 21:24:42</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/27/2015 23:05:32</publishTime>
+    </File>
+    <File Include="Content/StyleSite.css">
+      <publishTime>07/30/2015 09:56:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/22/2015 22:19:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/22/2015 22:19:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/22/2015 22:19:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/22/2015 22:19:40</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="Models/RestModel.edmx.diagram">
+      <publishTime>07/24/2015 23:50:54</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/22/2015 22:19:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/22/2015 22:19:40</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/22/2015 22:19:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/22/2015 22:19:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/22/2015 22:19:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/22/2015 22:19:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/22/2015 22:19:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/22/2015 22:19:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/22/2015 22:19:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/22/2015 22:19:36</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>07/22/2015 22:19:44</publishTime>
+    </File>
+    <File Include="Scripts/Site.js">
+      <publishTime>07/30/2015 10:10:56</publishTime>
+    </File>
+    <File Include="Views/Home/Create.cshtml">
+      <publishTime>07/28/2015 23:02:56</publishTime>
+    </File>
+    <File Include="Views/Home/Edit.cshtml">
+      <publishTime>07/28/2015 23:05:00</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/30/2015 10:12:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/28/2015 23:06:20</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/22/2015 14:18:54</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/22/2015 22:19:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/30/2015 10:48:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

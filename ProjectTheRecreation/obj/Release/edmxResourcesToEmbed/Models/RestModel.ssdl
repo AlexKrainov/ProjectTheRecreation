@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RestDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Rest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameTour" Type="nvarchar(max)" />
+    <Property Name="NumberSchool" Type="int" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="NameTeacher" Type="nvarchar" MaxLength="250" />
+    <Property Name="CountOfChildren" Type="int" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="NextTour" Type="nvarchar(max)" />
+    <Property Name="GAI" Type="bit" />
+    <Property Name="Money" Type="money" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="RestDatabaseModelStoreContainer">
+    <EntitySet Name="Rest" EntityType="Self.Rest" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

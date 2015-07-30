@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RestDatabaseModelStoreContainer" CdmEntityContainer="RestDatabaseEntities">
+    <EntitySetMapping Name="Rests">
+      <EntityTypeMapping TypeName="RestDatabaseModel.Rest">
+        <MappingFragment StoreEntitySet="Rest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NameTour" ColumnName="NameTour" />
+          <ScalarProperty Name="NumberSchool" ColumnName="NumberSchool" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="NameTeacher" ColumnName="NameTeacher" />
+          <ScalarProperty Name="CountOfChildren" ColumnName="CountOfChildren" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="NextTour" ColumnName="NextTour" />
+          <ScalarProperty Name="GAI" ColumnName="GAI" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

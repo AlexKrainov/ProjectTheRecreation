@@ -1,0 +1,63 @@
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ProjectTheRecreation.dll.config
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ProjectTheRecreation.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ProjectTheRecreation.pdb
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.SqlServer.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Helpers.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Mvc.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Razor.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Deployment.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Razor.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ClosedXML.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.SqlServer.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Razor.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Deployment.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Razor.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Helpers.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Mvc.xml
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\EntityFramework.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Razor.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Webpages.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Webpages.Deployment.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Webpages.Razor.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Helpers.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Mvc.resources.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\obj\Release\ProjectTheRecreation.dll
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\obj\Release\ProjectTheRecreation.pdb
+I:\Learning Asp MVC\ProjectTheRecreation\ProjectTheRecreation\obj\Release\ProjectTheRecreation.csprojResolveAssemblyReference.cache
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ProjectTheRecreation.dll.config
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ProjectTheRecreation.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ProjectTheRecreation.pdb
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ClosedXML.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.SqlServer.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Helpers.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Mvc.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Razor.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Razor.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ClosedXML.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\EntityFramework.SqlServer.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Razor.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Webpages.Razor.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Helpers.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\System.Web.Mvc.xml
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\EntityFramework.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Razor.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\obj\Release\ProjectTheRecreation.csprojResolveAssemblyReference.cache
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\obj\Release\ProjectTheRecreation.dll
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\obj\Release\ProjectTheRecreation.pdb
+C:\Users\AlexK\Documents\GitHub\ProjectTheRecreation\ProjectTheRecreation\bin\DocumentFormat.OpenXml.dll

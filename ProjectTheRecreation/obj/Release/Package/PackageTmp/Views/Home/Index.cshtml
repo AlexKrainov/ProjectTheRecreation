@@ -1,0 +1,88 @@
+﻿@model ProjectTheRecreation.Models.Rest
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="MainPanel">
+    @Html.ActionLink("Создать новый", "Create", null, new { @style = "margin: 20px;font-size: 18px;" })
+
+    <input id="ButtonGlobalShearch" type="submit" value="Глобальный фильтр" onclick="ShowShearchDialog();" class="btn btn-default" />
+    <div id="GlobalSearchDialog">
+        @using (Html.BeginForm())
+        {
+            @Html.DropDownList("CollectionColumn", (IEnumerable<SelectListItem>)(ViewBag.selectListItem))
+            @Html.ActionLink("Сброс фильтра", "Index", null, new { @id = "ResetFilter", @style = "color: white; margin: 0px 46px; display: none;" })
+            @Html.TextBox("GlobalShearchTextBox", null, new
+       {
+           @onkeyup = "KeyUpTextBoxGlobalSearch(this);",
+           @title = @"Примеры запросов
+           * 2015
+           * Иванов 
+           * 9.17.1992
+           * 1500"
+       })
+            <input type="submit" value="Принять" style="border-radius: 5px;" />
+            <div style="margin: 13px;">
+                @Html.CheckBox("Excel", false)<label style="color: white;">Экспортировать в Excel</label>
+            </div>
+        }
+    </div>
+
+    <div class="InteractiveSearch">
+        @Html.TextBox("Search", null, new
+{
+    @id = "SearchTextBox",
+    @onkeyup = "KeyUpTextBoxInteractiveSearch(this);",
+    @class = "form-control",
+    @placeholder = "Введите слово для поиска ..."
+})
+        <img id="RemoveSearch" src="~/Content/Images/cross_script.png" title="Удаление фильтра" onclick="RemoveAllFilter();" />
+    </div>
+</div>
+<table class="ReportTable">
+    <thead id="theadTable">
+        <tr>
+            <td>@Html.LabelFor(model => model.NameTour)</td>
+            <td>@Html.LabelFor(model => model.NumberSchool)</td>
+            <td>@Html.LabelFor(model => model.Date)</td>
+            <td>@Html.LabelFor(model => model.NameTeacher)</td>
+            <td>@Html.LabelFor(model => model.Email)</td>
+            <td>@Html.LabelFor(model => model.CountOfChildren)</td>
+            <td>@Html.LabelFor(model => model.PhoneNumber)</td>
+            <td>@Html.LabelFor(model => model.NextTour)</td>
+            <td>@Html.LabelFor(model => model.GAI)</td>
+            <td>@Html.LabelFor(model => model.Money)</td>
+            <td>@Html.LabelFor(model => model.Comment)</td>
+            <td></td>
+        </tr>
+    </thead>
+    @foreach (ProjectTheRecreation.Models.Rest rest in ViewBag.Rests)
+    {
+        var date = rest.Date != null ? rest.Date.Value.ToShortDateString() : "";
+        var gai = rest.GAI == null || rest.GAI == false ? "Нет" : "Да";
+        var money = @rest.Money == null ? "" : @rest.Money.Value.ToString("### ### ### ### ### р.");
+
+        <tr>
+            @*onclick="onClickRow(this , @rest.Id);" ondblclick="onDBClickRow(@rest.Id);"*@
+            <td title="@rest.NameTour">@rest.NameTour</td>
+            <td title="@rest.NumberSchool">@rest.NumberSchool</td>
+            <td title="@date">@date</td>
+            <td title="@rest.NameTeacher">@rest.NameTeacher</td>
+            <td title="@rest.Email">@rest.Email</td>
+            <td title="@rest.CountOfChildren">@rest.CountOfChildren</td>
+            <td title="@rest.PhoneNumber">@rest.PhoneNumber</td>
+            <td title="@rest.NextTour">@rest.NextTour</td>
+            <td title="@gai">@gai</td>
+            <td title="@money">@money</td>
+            <td title="@rest.Comment">@rest.Comment</td>
+            <td style="display: -webkit-box;">
+                @Html.ActionLink("Редактировать", "Edit/" + rest.Id, null, new { @class = "editImage" })
+                @Html.ActionLink("Удалить", "Delete/" + rest.Id, null, new
+       {
+           @onclick = "return confirm('Вы уверены, что хотите удалить этот объект ?');",
+           @class = "deleteImage"
+       })
+            </td>
+        </tr>
+    }
+</table>

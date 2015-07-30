@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RestDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Rest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameTour" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NumberSchool" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="NameTeacher" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CountOfChildren" Type="Int32" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NextTour" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GAI" Type="Boolean" />
+    <Property Name="Money" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="RestDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Rests" EntityType="Self.Rest" />
+  </EntityContainer>
+</Schema>
